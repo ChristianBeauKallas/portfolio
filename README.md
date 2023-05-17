@@ -1,1 +1,3 @@
 # portfolio
+
+## what I learned

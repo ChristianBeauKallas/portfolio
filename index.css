@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCD0A3;
+    color: black
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu a {
+    color: black;
+}
+
+.head-shot {
+    width: 250px;
+    height: auto; 
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block; 
+}
+
+.centered-uppercase {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 495px 495px;
+    grid-template-columns: 495px 495px;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
